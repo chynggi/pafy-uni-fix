@@ -23,6 +23,7 @@ setup(
     author_email="np1nagev@gmail.com",
     url="https://github.com/mps-youtube/pafy/",
     download_url="https://github.com/mps-youtube/pafy/tags",
+    install_requires=[    'youtube-dl @ git+https://github.com/ytdl-org/youtube-dl'    ],
     extras_require={
         'youtube-dl-backend': ["youtube-dl"],
         },
